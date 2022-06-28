@@ -357,7 +357,7 @@ def help_button(update, context):
 
 
 @run_async
-def tiana_callback_handler(update, context):
+def agora_callback_handler(update, context):
     query = update.callback_query
     if query.data == "tiana_":
         query.message.edit_text(
