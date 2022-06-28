@@ -7,12 +7,12 @@ from pathlib import Path
 from telethon import events
 
 from pymongo import MongoClient
-from Tianabot import MONGO_DB_URI
-from Tianabot import telethn
+from Agorabot import MONGO_DB_URI
+from Agorabot import telethn
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["TianaBot"]
+db = client["AgoraBot"]
 gbanned = db.gban
 
 
@@ -146,7 +146,7 @@ def bot(**args):
     return decorator
 
 
-def Tianabot(**args):
+def Agorabot(**args):
     pattern = args.get("pattern", None)
     disable_edited = args.get("disable_edited", False)
     ignore_unsafe = args.get("ignore_unsafe", False)
