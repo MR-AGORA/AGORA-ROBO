@@ -1,4 +1,4 @@
-from Tianabot import telethn as tbot
+from Agorabot import telethn as tbot
 import requests
 import time
 
