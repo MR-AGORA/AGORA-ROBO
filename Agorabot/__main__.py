@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="❓ 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙃𝙚𝙡𝙥 ❗️", callback_data="tiana_"),
+        InlineKeyboardButton(text="❓ 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙃𝙚𝙡𝙥 ❗️", callback_data="agora_"),
     ],
     [
         InlineKeyboardButton(text="👩‍💻 𝙄𝙣𝙛𝙤", callback_data="about_"),
@@ -109,9 +109,9 @@ buttons = [
     
 ]
 
-TIANA_IMG = f"{START_IMG}"
-TIANA_VIDA = f"{BOT_TUT}"
-TIANA_VIDB = f"{MUSICBOT_TUT}"
+AGORA_IMG = f"{START_IMG}"
+AGORA_VIDA = f"{BOT_TUT}"
+AGORA_VIDB = f"{MUSICBOT_TUT}"
 
 HELP_STRINGS = """*Click on the Buttons Bellow to get Documention about Specific Modules*"""
 
