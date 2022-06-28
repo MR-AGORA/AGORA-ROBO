@@ -1,9 +1,9 @@
 from functools import wraps
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 from pyrogram.types import Message
-from Tianabot import pbot as app
-from Tianabot import DRAGONS, DEV_USERS, WOLVES, DEMONS, TIGERS
-from Tianabot.utils.adminperms import member_permissions
+from Agorabot import pbot as app
+from Agorabot import DRAGONS, DEV_USERS, WOLVES, DEMONS, TIGERS
+from Agorabot.utils.adminperms import member_permissions
 
 SUDO = DRAGONS, DEV_USERS, WOLVES, DEMONS, TIGERS
 
